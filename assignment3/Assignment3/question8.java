@@ -12,9 +12,9 @@ public class question8 {
 
  if (a == 0 && b == 0) {
      System.out.println("Point is at the origin.");
- } else if (a == 0) {
+ } else if (a == 0 && b !=0) {
      System.out.println("(" + a+ ", " + b+ ") is on the y-axis.");
- } else if (b == 0) {
+ } else if (b == 0 && a!=0) {
      System.out.println("(" + a + ", " +b+ ") is on the x-axis.");
  } else {
      String quadrant;

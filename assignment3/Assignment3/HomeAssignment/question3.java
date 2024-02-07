@@ -5,9 +5,10 @@ import java.util.Scanner;
 public class question3 {
     public static void main(String[] args) {
         Scanner sc =new Scanner(System.in);
-      int a=sc.nextInt();
+   System.out.println("Enter the month in Number");
+        int a=sc.nextInt();
 
-
+       
         int y =1;
         int b = (int)(Math.floor(Math.random()*( a -y +1)+y));
         switch (b) {
